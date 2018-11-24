@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/domainFlightTrip/domainFlightTrip.iml" filepath="$PROJECT_DIR$/domainFlightTrip/domainFlightTrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainOfferAPI/domainOfferAPI.iml" filepath="$PROJECT_DIR$/domainOfferAPI/domainOfferAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainRoadTrip/domainRoadTrip.iml" filepath="$PROJECT_DIR$/domainRoadTrip/domainRoadTrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainTripAPI/domainTripAPI.iml" filepath="$PROJECT_DIR$/domainTripAPI/domainTripAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trips.iml" filepath="$PROJECT_DIR$/trips.iml" />
+    </modules>
+  </component>
+</project>
