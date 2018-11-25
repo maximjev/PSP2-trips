@@ -6,18 +6,88 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="application1" />
+        <module name="ControllerOffer" />
+        <module name="ControllerTicket" />
+        <module name="domainAdventureAPI" />
+        <module name="domainCheapTicket" />
+        <module name="domainExpensiveTicket" />
+        <module name="domainFlightAdventure" />
         <module name="domainFlightTrip" />
         <module name="domainOfferAPI" />
+        <module name="domainRoadAdventure" />
         <module name="domainRoadTrip" />
+        <module name="domainServiceOfferAPI" />
+        <module name="domainServiceOfferImpl" />
+        <module name="domainTicketAPI" />
         <module name="domainTripAPI" />
+        <module name="FacadeOfferServiceAPI" />
+        <module name="FacadeOfferServiceImpl" />
+        <module name="FacadeTicketServiceAPI" />
+        <module name="FacadeTicketServiceImpl" />
+        <module name="FactoryCheapTicket" />
+        <module name="FactoryExpensiveTicket" />
+        <module name="FactoryFlightOffer" />
+        <module name="FactoryOfferAPI" />
+        <module name="FactoryRoad" />
+        <module name="FactoryRoadOffer" />
+        <module name="FactoryTicketAPI" />
+        <module name="IntegrationEmailSendingService" />
+        <module name="IntegrationSendingServiceAPI" />
+        <module name="IntegrationSMSSendingService" />
+        <module name="PackageDiscount" />
+        <module name="PackageDiscountAPI" />
+        <module name="PackageDiscountFamily" />
+        <module name="PackageDiscountSenior" />
+        <module name="RepositoryOfferAPI" />
+        <module name="RepositoryOfferMongoDB" />
+        <module name="RepositoryTicketAPI" />
+        <module name="RepositoryTicketMongoDB" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application1" target="9" />
+      <module name="ControllerOffer" target="1.8" />
+      <module name="ControllerTicket" target="1.8" />
+      <module name="domainAdventureAPI" target="9" />
       <module name="domainBaseTripAPI" target="11" />
+      <module name="domainCheapTicket" target="9" />
+      <module name="domainExpensiveTicket" target="9" />
+      <module name="domainFlightAdventure" target="9" />
       <module name="domainFlightTrip" target="9" />
       <module name="domainOfferAPI" target="9" />
+      <module name="domainRoadAdventure" target="9" />
       <module name="domainRoadTrip" target="9" />
+      <module name="domainServiceOfferAPI" target="9" />
+      <module name="domainServiceOfferImpl" target="9" />
+      <module name="domainTicketAPI" target="9" />
       <module name="domainTripAPI" target="9" />
+      <module name="FacadeOfferService" target="9" />
+      <module name="FacadeOfferServiceAPI" target="9" />
+      <module name="FacadeOfferServiceImpl" target="9" />
+      <module name="FacadeTicketServiceAPI" target="9" />
+      <module name="FacadeTicketServiceImpl" target="9" />
+      <module name="FactoryCheapTicket" target="9" />
+      <module name="FactoryExpensiveTicket" target="9" />
+      <module name="FactoryFlightOffer" target="9" />
+      <module name="FactoryOfferAPI" target="9" />
+      <module name="factoryOfferAPI" target="9" />
+      <module name="FactoryRoad" target="9" />
+      <module name="FactoryRoadOffer" target="9" />
+      <module name="FactoryTicketAPI" target="9" />
+      <module name="FactoryTrip" target="9" />
+      <module name="IntegrationEmailSendingService" target="9" />
+      <module name="IntegrationSendingServiceAPI" target="9" />
+      <module name="IntegrationSMSSendingService" target="9" />
+      <module name="PackageDiscount" target="9" />
+      <module name="PackageDiscountAPI" target="9" />
+      <module name="PackageDiscountFamily" target="9" />
+      <module name="PackageDiscountSenior" target="9" />
+      <module name="RepositoryOfferAPI" target="9" />
+      <module name="RepositoryOfferMongoDB" target="9" />
+      <module name="RepositoryTicketAPI" target="9" />
+      <module name="RepositoryTicketMongo" target="9" />
+      <module name="RepositoryTicketMongoDB" target="9" />
       <module name="trips" target="9" />
     </bytecodeTargetLevel>
   </component>

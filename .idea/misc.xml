@@ -4,16 +4,23 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/domainRoadTrip/pom.xml" />
+        <option value="$PROJECT_DIR$/PackageDiscountAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/application1/pom.xml" />
+        <option value="$PROJECT_DIR$/FactoryRoadOffer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/FacadeOfferService/pom.xml" />
+        <option value="$PROJECT_DIR$/FactoryTrip/pom.xml" />
+        <option value="$PROJECT_DIR$/RepositoryTicketMongo/pom.xml" />
         <option value="$PROJECT_DIR$/domainBaseTripAPI/pom.xml" />
         <option value="$PROJECT_DIR$/domainFlightTrip/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="10.0" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -3,15 +3,21 @@ package trip.domainRoadTrip;
 import trip.domainTripAPI.Trip;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class RoadTrip extends Trip {
 
-    public RoadTrip(LocalDate from, LocalDate till, String destination, double price) {
-        super(from, till, destination, price);
+    public RoadTrip(LocalDateTime from, LocalDateTime till, String destination, PackageType packageType) {
+        super(from, till, destination, packageType);
     }
 
     @Override
-    public double getTransportExpenses() {
-        return 60;
+    public double getBasePrice() {
+        return 200;
+    }
+
+    @Override
+    public double getAdditionalExpenses() {
+        return 50;
     }
 }

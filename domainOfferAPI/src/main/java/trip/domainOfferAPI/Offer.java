@@ -4,9 +4,17 @@ import java.time.Duration;
 
 public interface Offer {
 
+    enum PackageType {
+        FAMILY, SENIOR, COUPLE
+    }
+
     String getId();
 
     Duration getDuration();
 
-    double getPrice();
+    double getBasePrice();
+
+    PackageType getPackageType();
+
+    double getAdditionalExpenses();
 }

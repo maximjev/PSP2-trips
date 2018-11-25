@@ -2,10 +2,42 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/domainBaseTripAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ControllerOffer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ControllerTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FacadeOfferServiceAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FacadeOfferServiceImpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FacadeTicketServiceAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FacadeTicketServiceImpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryCheapTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryExpensiveTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryFlightOffer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryOfferAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryRoadOffer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FactoryTicketAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IntegrationEmailSendingService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IntegrationSMSSendingService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IntegrationSendingServiceAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PackageDiscountAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PackageDiscountFamily" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PackageDiscountSenior" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RepositoryOfferAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RepositoryOfferMongoDB" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RepositoryTicketAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RepositoryTicketMongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RepositoryTicketMongoDB" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainAdventureAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainCheapTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainExpensiveTicket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainFlightAdventure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domainFlightTrip" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domainOfferAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainRoadAdventure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domainRoadTrip" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainServiceOfferAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainServiceOfferImpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domainTicketAPI" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domainTripAPI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factoryOfferAPI" charset="UTF-8" />
   </component>
 </project>

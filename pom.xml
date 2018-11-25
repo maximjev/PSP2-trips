@@ -11,18 +11,40 @@
 		<module>domainOfferAPI</module>
         <module>domainFlightTrip</module>
         <module>domainRoadTrip</module>
-    </modules>
+        <module>domainAdventureAPI</module>
+		<module>domainRoadAdventure</module>
+		<module>domainFlightAdventure</module>
+        <module>domainServiceOfferAPI</module>
+		<module>PackageDiscountFamily</module>
+		<module>PackageDiscountAPI</module>
+        <module>PackageDiscountSenior</module>
+		<module>domainServiceOfferImpl</module>
+		<module>FacadeOfferServiceAPI</module>
+		<module>FacadeOfferServiceImpl</module>
+		<module>RepositoryOfferAPI</module>
+		<module>RepositoryOfferMongoDB</module>
+        <module>FactoryFlightOffer</module>
+        <module>ControllerOffer</module>
+        <module>FactoryOfferAPI</module>
+        <module>domainTicketAPI</module>
+        <module>domainCheapTicket</module>
+		<module>domainExpensiveTicket</module>
+		<module>FactoryTicketAPI</module>
+		<module>FactoryCheapTicket</module>
+		<module>FactoryExpensiveTicket</module>
+		<module>RepositoryTicketAPI</module>
+		<module>RepositoryTicketMongoDB</module>
+        <module>IntegrationSendingServiceAPI</module>
+        <module>IntegrationSMSSendingService</module>
+        <module>IntegrationEmailSendingService</module>
+        <module>FacadeTicketServiceAPI</module>
+        <module>FacadeTicketServiceImpl</module>
+		<module>ControllerTicket</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>trip</name>
 	<description>Clean architecture</description>
-
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,31 +52,17 @@
 		<java.version>9</java.version>
 	</properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>9</source>
+					<target>9</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
