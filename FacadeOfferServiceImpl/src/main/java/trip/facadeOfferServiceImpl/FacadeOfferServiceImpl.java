@@ -1,6 +1,7 @@
 package trip.facadeOfferServiceImpl;
 
 import trip.domainOfferAPI.Offer;
+import trip.domainServiceOffer.DomainOfferService;
 import trip.facadeOfferServiceAPI.FacadeOfferService;
 import trip.offerFactory.OfferFactory;
 import trip.offerRepositoryAPI.OfferRepository;
@@ -15,9 +16,14 @@ public class FacadeOfferServiceImpl implements FacadeOfferService {
 
     private OfferFactory offerFactory;
 
-    public FacadeOfferServiceImpl(OfferRepository offerRepository, OfferFactory offerFactory) {
+    private DomainOfferService offerService;
+
+    public FacadeOfferServiceImpl(OfferRepository offerRepository,
+                                  OfferFactory offerFactory,
+                                  DomainOfferService offerService) {
         this.offerRepository = offerRepository;
         this.offerFactory = offerFactory;
+        this.offerService = offerService;
     }
 
     @Override
@@ -38,6 +44,14 @@ public class FacadeOfferServiceImpl implements FacadeOfferService {
     @Override
     public void createOffer(Duration duration, String location, String packageType) {
         offerRepository.save(offerFactory.getOffer(duration, location, packageType));
+    }
+
+    @Override
+    public double getPrice(String offerId, int ticketCount, String packageType) {
+        return offerService.calculatePrice(
+                offerRepository.getById(offerId),
+                ticketCount,
+                Offer.PackageType.valueOf(packageType));
     }
 }
 

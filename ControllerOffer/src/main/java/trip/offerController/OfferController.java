@@ -34,6 +34,7 @@ public class OfferController {
             @RequestParam(name = "till") String till,
             @RequestParam(name = "destination") String destination,
             @RequestParam(name = "packageType") String packageType) {
+
         offerService.createOffer(LocalDateTime.parse(from), LocalDateTime.parse(till), destination, packageType);
         return "offerCreated";
     }
@@ -43,7 +44,18 @@ public class OfferController {
             @RequestParam(name = "duration") String duration,
             @RequestParam(name = "location") String location,
             @RequestParam(name = "packageType") String packageType) {
+
         offerService.createOffer(Duration.parse(duration), location, packageType);
         return "offerCreated";
+    }
+
+    @GetMapping("/{id}/price")
+    public String getPrice(@PathVariable String id,
+                           @RequestParam(name = "count") String count,
+                           @RequestParam(name = "packageType") String packageType,
+                           Model model) {
+
+        model.addAttribute("price", offerService.getPrice(id, Integer.parseInt(count), packageType));
+        return "offerPrice";
     }
 }

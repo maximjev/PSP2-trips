@@ -21,6 +21,8 @@ public abstract class Trip implements Offer, Serializable {
 
     private PackageType packageType;
 
+    private int availableTickets;
+
     public Trip(LocalDateTime from, LocalDateTime till, String destination, PackageType packageType) {
         this.id = randomUUID().toString();
         this.from = from;
@@ -54,5 +56,20 @@ public abstract class Trip implements Offer, Serializable {
     @Override
     public PackageType getPackageType() {
         return packageType;
+    }
+
+    @Override
+    public int getAvailableTickets() {
+        return availableTickets;
+    }
+
+    @Override
+    public void addAvailableTickets(int count) {
+        availableTickets += count;
+    }
+
+    @Override
+    public void buyTickets(int count) {
+        availableTickets -= count;
     }
 }

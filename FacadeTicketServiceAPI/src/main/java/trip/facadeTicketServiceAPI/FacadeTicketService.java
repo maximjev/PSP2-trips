@@ -10,5 +10,7 @@ public interface FacadeTicketService {
 
     List<Ticket> getAllByOfferId(String offerId);
 
-    void save(String offerId);
+    void save(String offerId, int count);
+
+    void buy(String offerId, String packageType, int count, String contact);
 }

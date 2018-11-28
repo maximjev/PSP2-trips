@@ -96,6 +96,31 @@
 			<artifactId>ControllerTicket</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>RepositoryTicketAPI</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>FactoryTicketAPI</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>FacadeTicketServiceImpl</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>RepositoryTicketMongoDB</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>FactoryCheapTicket</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 

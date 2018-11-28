@@ -17,11 +17,15 @@ public abstract class Adventure implements Offer, Serializable {
 
     private PackageType packageType;
 
+    private int availableTickets;
+
     public Adventure(Duration duration, String location, PackageType packageType) {
         this.id = UUID.randomUUID().toString();
         this.location = location;
         this.duration = duration;
         this.packageType = packageType;
+        this.availableTickets = 0;
+
     }
 
     @Override
@@ -37,5 +41,20 @@ public abstract class Adventure implements Offer, Serializable {
     @Override
     public PackageType getPackageType() {
         return packageType;
+    }
+
+    @Override
+    public int getAvailableTickets() {
+        return availableTickets;
+    }
+
+    @Override
+    public void addAvailableTickets(int count) {
+        availableTickets += count;
+    }
+
+    @Override
+    public void buyTickets(int count) {
+        availableTickets -= count;
     }
 }

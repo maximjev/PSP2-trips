@@ -15,5 +15,7 @@
     <orderEntry type="module" module-name="domainTicketAPI" />
     <orderEntry type="module" module-name="RepositoryTicketAPI" />
     <orderEntry type="module" module-name="FactoryTicketAPI" />
+    <orderEntry type="module" module-name="domainServiceOfferAPI" />
+    <orderEntry type="module" module-name="domainOfferAPI" />
   </component>
 </module>

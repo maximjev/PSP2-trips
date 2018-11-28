@@ -21,6 +21,21 @@
             <artifactId>PackageDiscountAPI</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>RepositoryTicketAPI</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>RepositoryOfferAPI</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>IntegrationSendingServiceAPI</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

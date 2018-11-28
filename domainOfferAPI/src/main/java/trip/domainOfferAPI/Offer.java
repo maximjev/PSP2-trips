@@ -14,6 +14,12 @@ public interface Offer {
 
     double getBasePrice();
 
+    int getAvailableTickets();
+
+    void addAvailableTickets(int count);
+
+    void buyTickets(int count);
+
     PackageType getPackageType();
 
     double getAdditionalExpenses();

@@ -28,5 +28,9 @@
     <orderEntry type="module" module-name="domainServiceOfferAPI" />
     <orderEntry type="module" module-name="domainOfferAPI" />
     <orderEntry type="module" module-name="PackageDiscountAPI" />
+    <orderEntry type="module" module-name="RepositoryTicketAPI" />
+    <orderEntry type="module" module-name="domainTicketAPI" />
+    <orderEntry type="module" module-name="RepositoryOfferAPI" />
+    <orderEntry type="module" module-name="IntegrationSendingServiceAPI" />
   </component>
 </module>

@@ -29,5 +29,6 @@
     <orderEntry type="module" module-name="domainOfferAPI" />
     <orderEntry type="module" module-name="RepositoryOfferAPI" />
     <orderEntry type="module" module-name="FactoryOfferAPI" />
+    <orderEntry type="module" module-name="domainServiceOfferAPI" />
   </component>
 </module>

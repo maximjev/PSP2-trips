@@ -15,4 +15,6 @@ public interface FacadeOfferService {
     void createOffer(LocalDateTime from, LocalDateTime till, String destination, String packageType);
 
     void createOffer(Duration duration, String location, String packageType);
+
+    double getPrice(String offerId, int ticketCount, String packageType);
 }
