@@ -12,11 +12,6 @@ public class FlightAdventure extends Adventure {
     }
 
     @Override
-    public double getBasePrice() {
-        return 50;
-    }
-
-    @Override
     public double getAdditionalExpenses() {
         return 10;
     }

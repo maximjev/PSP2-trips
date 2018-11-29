@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="application1" />
+        <module name="application2" />
         <module name="ControllerOffer" />
         <module name="ControllerTicket" />
         <module name="domainAdventureAPI" />
@@ -47,6 +48,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="application1" target="9" />
+      <module name="application2" target="11" />
       <module name="ControllerOffer" target="1.8" />
       <module name="ControllerTicket" target="1.8" />
       <module name="domainAdventureAPI" target="9" />

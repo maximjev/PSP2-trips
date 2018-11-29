@@ -12,11 +12,6 @@ public class RoadTrip extends Trip {
     }
 
     @Override
-    public double getBasePrice() {
-        return 200;
-    }
-
-    @Override
     public double getAdditionalExpenses() {
         return 50;
     }

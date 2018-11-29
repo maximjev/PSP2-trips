@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>trip</groupId>
-	<artifactId>application1</artifactId>
+	<artifactId>application2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>application1</name>
+	<name>application2</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -21,7 +21,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>9</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -41,19 +41,24 @@
 		</dependency>
         <dependency>
             <groupId>trips</groupId>
-            <artifactId>FactoryFlightOffer</artifactId>
+            <artifactId>FactoryOfferAPI</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>FactoryRoad</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>trips</groupId>
 			<artifactId>RepositoryOfferAPI</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>trips</groupId>
-			<artifactId>RepositoryOfferMongoDB</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>RepositoryOfferMongoDB</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 		<dependency>
 			<groupId>trips</groupId>
 			<artifactId>domainServiceOfferAPI</artifactId>
@@ -66,12 +71,12 @@
 		</dependency>
 		<dependency>
 			<groupId>trips</groupId>
-			<artifactId>PackageDiscountFamily</artifactId>
+			<artifactId>domainServiceOfferImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>trips</groupId>
-			<artifactId>domainServiceOfferImpl</artifactId>
+			<artifactId>PackageDiscountSenior</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
@@ -84,26 +89,14 @@
 			<artifactId>FacadeOfferServiceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-		<dependency>
-			<groupId>trips</groupId>
-			<artifactId>ControllerOffer</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>trips</groupId>
-			<artifactId>ControllerTicket</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>trips</groupId>
-			<artifactId>RepositoryTicketAPI</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>trips</groupId>
 			<artifactId>FactoryTicketAPI</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>FacadeTicketServiceAPI</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
@@ -118,15 +111,26 @@
 		</dependency>
 		<dependency>
 			<groupId>trips</groupId>
-			<artifactId>FactoryCheapTicket</artifactId>
+			<artifactId>FactoryExpensiveTicket</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
         <dependency>
             <groupId>trips</groupId>
-            <artifactId>IntegrationSMSSendingService</artifactId>
+            <artifactId>IntegrationEmailSendingService</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>ControllerOffer</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>ControllerTicket</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
     </dependencies>
 
 	<build>

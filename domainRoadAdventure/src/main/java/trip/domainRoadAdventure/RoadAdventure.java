@@ -12,11 +12,6 @@ public class RoadAdventure extends Adventure {
     }
 
     @Override
-    public double getBasePrice() {
-        return 15;
-    }
-
-    @Override
     public double getAdditionalExpenses() {
         return 5;
     }

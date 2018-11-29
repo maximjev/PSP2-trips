@@ -57,4 +57,8 @@ public abstract class Adventure implements Offer, Serializable {
     public void buyTickets(int count) {
         availableTickets -= count;
     }
+
+    public String getLocation() {
+        return location;
+    }
 }

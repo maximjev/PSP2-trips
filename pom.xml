@@ -40,7 +40,7 @@
         <module>FacadeTicketServiceAPI</module>
         <module>FacadeTicketServiceImpl</module>
 		<module>ControllerTicket</module>
-	</modules>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>trip</name>

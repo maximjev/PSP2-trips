@@ -12,8 +12,6 @@ public interface Offer {
 
     Duration getDuration();
 
-    double getBasePrice();
-
     int getAvailableTickets();
 
     void addAvailableTickets(int count);

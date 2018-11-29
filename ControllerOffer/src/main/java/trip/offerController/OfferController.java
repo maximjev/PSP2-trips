@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import trip.domainAdventureAPI.Adventure;
+import trip.domainOfferAPI.Offer;
+import trip.domainTripAPI.Trip;
 import trip.facadeOfferServiceAPI.FacadeOfferService;
 
 import java.time.Duration;
@@ -24,7 +27,16 @@ public class OfferController {
 
     @GetMapping("/{id}")
     public String get(@PathVariable String id, Model model) {
-        model.addAttribute("offer", offerService.getById(id));
+        Offer offer = offerService.getById(id);
+        model.addAttribute("offer", offer);
+        if (offer instanceof Trip) {
+            model.addAttribute("from", ((Trip) offer).getFrom());
+            model.addAttribute("till", ((Trip) offer).getTill());
+            model.addAttribute("destination", ((Trip) offer).getDestination());
+        }
+        if (offer instanceof Adventure) {
+            model.addAttribute("location", ((Adventure) offer).getLocation());
+        }
         return "offerView";
     }
 

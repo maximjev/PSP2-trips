@@ -9,19 +9,18 @@
     <tr>
         <td>ID</td>
         <td>Duration</td>
-        <td>Base price</td>
+        <td>Available tickets</td>
         <td>Additional expenses</td>
         <td>Package type</td>
     </tr>
 
     <tr th:each="offer: ${offers}">
-        <td th:text="${offer.}"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td th:text="${offer.getId()}"></td>
+        <td th:text="${offer.getDuration()}"></td>
+        <td th:text="${offer.getAvailableTickets()}"></td>
+        <td th:text="${offer.getAdditionalExpenses()}"></td>
+        <td th:text="${offer.getPackageType()}"></td>
     </tr>
-
 </table>
 
 </body>

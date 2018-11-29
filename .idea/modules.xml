@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/RepositoryTicketAPI/RepositoryTicketAPI.iml" filepath="$PROJECT_DIR$/RepositoryTicketAPI/RepositoryTicketAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/RepositoryTicketMongoDB/RepositoryTicketMongoDB.iml" filepath="$PROJECT_DIR$/RepositoryTicketMongoDB/RepositoryTicketMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/application1/application1.iml" filepath="$PROJECT_DIR$/application1/application1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application2/application2.iml" filepath="$PROJECT_DIR$/application2/application2.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainAdventureAPI/domainAdventureAPI.iml" filepath="$PROJECT_DIR$/domainAdventureAPI/domainAdventureAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainCheapTicket/domainCheapTicket.iml" filepath="$PROJECT_DIR$/domainCheapTicket/domainCheapTicket.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainExpensiveTicket/domainExpensiveTicket.iml" filepath="$PROJECT_DIR$/domainExpensiveTicket/domainExpensiveTicket.iml" />

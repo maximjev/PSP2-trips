@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Offer</title>
+</head>
+<body>
+
+    <div>
+        <p>ID</p>
+        <p th:text="${offer.getId()}"></p>
+        <p th:text="${offer.getDuration()}"></p>
+        <p th:text="${offer.getAvailableTickets()}"></p>
+        <p th:text="${offer.getAdditionalExpenses()}"></p>
+        <p th:text="${offer.getPackageType()}"></p>
+        <p th:text="${location}"></p>
+        <p th:text="${from}"></p>
+        <p th:text="${till}"></p>
+        <p th:text="${destination}"></p>
+
+
+    </div>
+
+</body>
+</html>
