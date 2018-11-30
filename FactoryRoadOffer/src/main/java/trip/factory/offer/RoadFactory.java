@@ -1,6 +1,10 @@
 package trip.factory.offer;
 
 
+import trip.domain.offer.Offer;
+import trip.domain.offer.RoadAdventure;
+import trip.domain.offer.RoadTrip;
+
 import java.time.Duration;
 import java.time.LocalDateTime;
 

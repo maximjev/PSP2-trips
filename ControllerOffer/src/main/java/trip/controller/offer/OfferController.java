@@ -1,11 +1,12 @@
 package trip.controller.offer;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import trip.domain.offer.service.Adventure;
-import trip.domain.offer.service.Offer;
+import trip.domain.offer.Adventure;
+import trip.domain.offer.Offer;
 import trip.domain.offer.Trip;
 import trip.facade.offer.FacadeOfferService;
 

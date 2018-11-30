@@ -8,10 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="application1" />
         <module name="application2" />
+        <module name="ControllerOffer" />
+        <module name="ControllerTicket" />
         <module name="domainAdventureAPI" />
         <module name="domainCheapTicket" />
         <module name="domainExpensiveTicket" />
         <module name="domainFlightAdventure" />
+        <module name="domainRoadAdventure" />
         <module name="domainRoadTrip" />
         <module name="domainServiceOfferAPI" />
         <module name="domainServiceOfferImpl" />
@@ -40,11 +43,8 @@
         <sourceOutputDir name="../../../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ControllerOffer" />
-        <module name="ControllerTicket" />
         <module name="domainFlightTrip" />
         <module name="domainOfferAPI" />
-        <module name="domainRoadAdventure" />
         <module name="domainTicketAPI" />
         <module name="FactoryRoad" />
         <module name="FactoryRoadOffer" />
@@ -63,7 +63,7 @@
       <module name="domainFlightAdventure" target="9" />
       <module name="domainFlightTrip" target="1.5" />
       <module name="domainOfferAPI" target="1.5" />
-      <module name="domainRoadAdventure" target="1.5" />
+      <module name="domainRoadAdventure" target="9" />
       <module name="domainRoadTrip" target="9" />
       <module name="domainServiceOfferAPI" target="9" />
       <module name="domainServiceOfferImpl" target="9" />
