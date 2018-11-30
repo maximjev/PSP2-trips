@@ -16,6 +16,11 @@
             <artifactId>PackageDiscountAPI</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>PackageDiscountAPI</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

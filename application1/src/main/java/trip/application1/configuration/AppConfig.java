@@ -3,27 +3,24 @@ package trip.application1.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import trip.cheapTicketFactory.CheapTicketFactory;
-import trip.domainServiceOffer.DomainOfferService;
-import trip.domainServiceOfferImpl.DomainOfferServiceImpl;
-import trip.facadeOfferServiceAPI.FacadeOfferService;
-import trip.facadeOfferServiceImpl.FacadeOfferServiceImpl;
-import trip.facadeTicketServiceAPI.FacadeTicketService;
-import trip.facadeTicketServiceImpl.FacadeTicketServiceImpl;
-import trip.familyPackageDiscount.FamilyPackageDiscount;
-import trip.flight.factory.FlightFactory;
-import trip.offerFactory.OfferFactory;
-import trip.offerRepositoryAPI.OfferRepository;
-import trip.offerRepositoryMongoDB.OfferRepositoryMongo;
-import trip.offerRepositoryMongoDB.OfferRepositoryMongoImpl;
-import trip.packageDiscountAPI.PackageDiscount;
-import trip.sendingServiceAPI.SendingService;
-import trip.smsSendingService.SMSSendingService;
-import trip.ticketFactoryAPI.TicketFactory;
-import trip.ticketRepositoryAPI.TicketRepository;
-import trip.ticketRepositoryMongoDB.TicketRepositoryMongo;
-import trip.ticketRepositoryMongoDB.TicketRepositoryMongoImpl;
+import trip.factory.ticket.CheapTicketFactory;
+import trip.domain.offer.DomainOfferService;
+import trip.domain.offer.DomainOfferServiceImpl;
+import trip.facade.offer.FacadeOfferService;
+import trip.facade.offer.FacadeOfferServiceImpl;
+import trip.facade.ticket.FacadeTicketService;
+import trip.facade.ticket.FacadeTicketServiceImpl;
+import trip.domain.offer.discount.FamilyPackageDiscount;
+import trip.factory.offer.FlightFactory;
+import trip.factory.offer.OfferFactory;
+import trip.repository.offer.OfferRepository;
+import trip.repository.offer.OfferRepositoryMongoImpl;
+import trip.domain.offer.discount.PackageDiscount;
+import trip.integration.sending.SendingService;
+import trip.integration.sending.SMSSendingService;
+import trip.factory.ticket.TicketFactory;
+import trip.repository.ticket.TicketRepository;
+import trip.repository.ticket.TicketRepositoryMongoImpl;
 
 @Configuration
 public class AppConfig {

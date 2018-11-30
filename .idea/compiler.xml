@@ -8,19 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="application1" />
         <module name="application2" />
-        <module name="ControllerOffer" />
-        <module name="ControllerTicket" />
         <module name="domainAdventureAPI" />
         <module name="domainCheapTicket" />
         <module name="domainExpensiveTicket" />
         <module name="domainFlightAdventure" />
-        <module name="domainFlightTrip" />
-        <module name="domainOfferAPI" />
-        <module name="domainRoadAdventure" />
         <module name="domainRoadTrip" />
         <module name="domainServiceOfferAPI" />
         <module name="domainServiceOfferImpl" />
-        <module name="domainTicketAPI" />
         <module name="domainTripAPI" />
         <module name="FacadeOfferServiceAPI" />
         <module name="FacadeOfferServiceImpl" />
@@ -30,11 +24,8 @@
         <module name="FactoryExpensiveTicket" />
         <module name="FactoryFlightOffer" />
         <module name="FactoryOfferAPI" />
-        <module name="FactoryRoad" />
-        <module name="FactoryRoadOffer" />
         <module name="FactoryTicketAPI" />
         <module name="IntegrationEmailSendingService" />
-        <module name="IntegrationSendingServiceAPI" />
         <module name="IntegrationSMSSendingService" />
         <module name="PackageDiscount" />
         <module name="PackageDiscountAPI" />
@@ -44,6 +35,20 @@
         <module name="RepositoryOfferMongoDB" />
         <module name="RepositoryTicketAPI" />
         <module name="RepositoryTicketMongoDB" />
+      </profile>
+      <profile name="Annotation profile for trip" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ControllerOffer" />
+        <module name="ControllerTicket" />
+        <module name="domainFlightTrip" />
+        <module name="domainOfferAPI" />
+        <module name="domainRoadAdventure" />
+        <module name="domainTicketAPI" />
+        <module name="FactoryRoad" />
+        <module name="FactoryRoadOffer" />
+        <module name="IntegrationSendingServiceAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -56,13 +61,13 @@
       <module name="domainCheapTicket" target="9" />
       <module name="domainExpensiveTicket" target="9" />
       <module name="domainFlightAdventure" target="9" />
-      <module name="domainFlightTrip" target="9" />
-      <module name="domainOfferAPI" target="9" />
-      <module name="domainRoadAdventure" target="9" />
+      <module name="domainFlightTrip" target="1.5" />
+      <module name="domainOfferAPI" target="1.5" />
+      <module name="domainRoadAdventure" target="1.5" />
       <module name="domainRoadTrip" target="9" />
       <module name="domainServiceOfferAPI" target="9" />
       <module name="domainServiceOfferImpl" target="9" />
-      <module name="domainTicketAPI" target="9" />
+      <module name="domainTicketAPI" target="1.5" />
       <module name="domainTripAPI" target="9" />
       <module name="FacadeOfferService" target="9" />
       <module name="FacadeOfferServiceAPI" target="9" />
@@ -72,15 +77,48 @@
       <module name="FactoryCheapTicket" target="9" />
       <module name="FactoryExpensiveTicket" target="9" />
       <module name="FactoryFlightOffer" target="9" />
-      <module name="FactoryOfferAPI" target="9" />
       <module name="factoryOfferAPI" target="9" />
-      <module name="FactoryRoad" target="9" />
-      <module name="FactoryRoadOffer" target="9" />
+      <module name="FactoryOfferAPI" target="9" />
+      <module name="FactoryRoad" target="1.5" />
+      <module name="FactoryRoadOffer" target="1.5" />
       <module name="FactoryTicketAPI" target="9" />
       <module name="FactoryTrip" target="9" />
       <module name="IntegrationEmailSendingService" target="9" />
-      <module name="IntegrationSendingServiceAPI" target="9" />
+      <module name="IntegrationSendingServiceAPI" target="1.5" />
       <module name="IntegrationSMSSendingService" target="9" />
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (10)" target="1.5" />
+      <module name="maven-archiver (11)" target="1.5" />
+      <module name="maven-archiver (12)" target="1.5" />
+      <module name="maven-archiver (13)" target="1.5" />
+      <module name="maven-archiver (14)" target="1.5" />
+      <module name="maven-archiver (15)" target="1.5" />
+      <module name="maven-archiver (16)" target="1.5" />
+      <module name="maven-archiver (17)" target="1.5" />
+      <module name="maven-archiver (18)" target="1.5" />
+      <module name="maven-archiver (19)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="maven-archiver (20)" target="1.5" />
+      <module name="maven-archiver (21)" target="1.5" />
+      <module name="maven-archiver (22)" target="1.5" />
+      <module name="maven-archiver (23)" target="1.5" />
+      <module name="maven-archiver (24)" target="1.5" />
+      <module name="maven-archiver (25)" target="1.5" />
+      <module name="maven-archiver (26)" target="1.5" />
+      <module name="maven-archiver (27)" target="1.5" />
+      <module name="maven-archiver (28)" target="1.5" />
+      <module name="maven-archiver (29)" target="1.5" />
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="maven-archiver (30)" target="1.5" />
+      <module name="maven-archiver (31)" target="1.5" />
+      <module name="maven-archiver (32)" target="1.5" />
+      <module name="maven-archiver (33)" target="1.5" />
+      <module name="maven-archiver (4)" target="1.5" />
+      <module name="maven-archiver (5)" target="1.5" />
+      <module name="maven-archiver (6)" target="1.5" />
+      <module name="maven-archiver (7)" target="1.5" />
+      <module name="maven-archiver (8)" target="1.5" />
+      <module name="maven-archiver (9)" target="1.5" />
       <module name="PackageDiscount" target="9" />
       <module name="PackageDiscountAPI" target="9" />
       <module name="PackageDiscountFamily" target="9" />

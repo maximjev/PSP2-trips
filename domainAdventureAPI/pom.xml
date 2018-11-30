@@ -11,6 +11,7 @@
 
     <artifactId>domainAdventureAPI</artifactId>
     <dependencies>
+
         <dependency>
             <groupId>trips</groupId>
             <artifactId>domainOfferAPI</artifactId>

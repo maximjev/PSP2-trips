@@ -22,6 +22,11 @@
             <artifactId>twilio-java-sdk</artifactId>
             <version>3.4.5</version>
         </dependency>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>IntegrationSendingServiceAPI</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
