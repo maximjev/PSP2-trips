@@ -4,7 +4,7 @@ import trip.domain.offer.DomainOfferService;
 import trip.domain.offer.Offer;
 import trip.domain.ticket.Ticket;
 import trip.factory.ticket.TicketFactory;
-import trip.repository.ticket.TicketRepository;
+import trip.domain.ticket.repository.TicketRepository;
 
 import java.util.List;
 

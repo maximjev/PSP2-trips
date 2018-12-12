@@ -1,10 +1,10 @@
 package trip.domain.offer;
 
-import trip.repository.offer.OfferRepository;
+import trip.domain.offer.repository.OfferRepository;
 import trip.domain.offer.discount.PackageDiscount;
 import trip.integration.sending.SendingService;
 import trip.domain.ticket.Ticket;
-import trip.repository.ticket.TicketRepository;
+import trip.domain.ticket.repository.TicketRepository;
 
 import java.util.List;
 

@@ -12,15 +12,15 @@ import trip.facade.offer.FacadeOfferServiceImpl;
 import trip.facade.ticket.FacadeTicketService;
 import trip.facade.ticket.FacadeTicketServiceImpl;
 import trip.factory.offer.OfferFactory;
-import trip.repository.offer.OfferRepository;
-import trip.repository.offer.OfferRepositoryMongoImpl;
+import trip.domain.offer.repository.OfferRepository;
+import trip.domain.offer.repository.OfferRepositoryMongoImpl;
 import trip.domain.offer.discount.PackageDiscount;
 import trip.domain.offer.discount.SeniorPackageDiscount;
 import trip.factory.offer.RoadFactory;
 import trip.integration.sending.SendingService;
 import trip.factory.ticket.TicketFactory;
-import trip.repository.ticket.TicketRepository;
-import trip.repository.ticket.TicketRepositoryMongoImpl;
+import trip.domain.ticket.repository.TicketRepository;
+import trip.domain.ticket.repository.TicketRepositoryMongoImpl;
 
 @Configuration
 public class AppConfig {

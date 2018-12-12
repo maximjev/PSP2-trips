@@ -4,7 +4,7 @@ package trip.facade.offer;
 import trip.domain.offer.DomainOfferService;
 import trip.domain.offer.Offer;
 import trip.factory.offer.OfferFactory;
-import trip.repository.offer.OfferRepository;
+import trip.domain.offer.repository.OfferRepository;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

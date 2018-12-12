@@ -1,4 +1,4 @@
-package trip.repository.offer;
+package trip.domain.offer.repository;
 
 
 import trip.domain.offer.Offer;

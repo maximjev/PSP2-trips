@@ -13,14 +13,14 @@ import trip.facade.ticket.FacadeTicketServiceImpl;
 import trip.domain.offer.discount.FamilyPackageDiscount;
 import trip.factory.offer.FlightFactory;
 import trip.factory.offer.OfferFactory;
-import trip.repository.offer.OfferRepository;
-import trip.repository.offer.OfferRepositoryMongoImpl;
+import trip.domain.offer.repository.OfferRepository;
+import trip.domain.offer.repository.OfferRepositoryMongoImpl;
 import trip.domain.offer.discount.PackageDiscount;
 import trip.integration.sending.SendingService;
 import trip.integration.sending.SMSSendingService;
 import trip.factory.ticket.TicketFactory;
-import trip.repository.ticket.TicketRepository;
-import trip.repository.ticket.TicketRepositoryMongoImpl;
+import trip.domain.ticket.repository.TicketRepository;
+import trip.domain.ticket.repository.TicketRepositoryMongoImpl;
 
 @Configuration
 public class AppConfig {
@@ -36,10 +36,11 @@ public class AppConfig {
     }
 
     @Bean
-    public DomainOfferService domainOfferService(PackageDiscount packageDiscount,
-                                                 OfferRepository offerRepository,
-                                                 TicketRepository ticketRepository,
-                                                 SendingService sendingService) {
+    public DomainOfferService domainOfferService(
+            PackageDiscount packageDiscount,
+            OfferRepository offerRepository,
+            TicketRepository ticketRepository,
+            SendingService sendingService) {
         return new DomainOfferServiceImpl(packageDiscount, offerRepository, ticketRepository, sendingService);
     }
 

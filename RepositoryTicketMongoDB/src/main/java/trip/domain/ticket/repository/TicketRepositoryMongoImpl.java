@@ -1,11 +1,10 @@
-package trip.repository.ticket;
+package trip.domain.ticket.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import trip.domain.ticket.Ticket;
-import trip.repository.ticket.TicketRepository;
 
 import java.util.List;
 
