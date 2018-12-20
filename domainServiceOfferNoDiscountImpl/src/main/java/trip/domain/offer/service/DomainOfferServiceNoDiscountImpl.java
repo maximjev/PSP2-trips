@@ -3,8 +3,8 @@ package trip.domain.offer.service;
 import trip.domain.integration.sending.SendingService;
 import trip.domain.offer.entity.Offer;
 import trip.domain.offer.repository.OfferRepository;
-import trip.domain.ticket.Ticket;
-import trip.domain.ticket.repository.TicketRepository;
+import trip.domain.ticket.entity.Ticket;
+import trip.domain.ticket.entity.repository.TicketRepository;
 
 import java.util.List;
 

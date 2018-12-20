@@ -3,7 +3,7 @@ package trip.consoleapp.view;
 import mvc.ConsoleModel;
 import mvc.ConsoleView;
 import trip.domain.offer.entity.Offer;
-import trip.domain.ticket.Ticket;
+import trip.domain.ticket.entity.Ticket;
 
 import java.util.ArrayList;
 import java.util.List;

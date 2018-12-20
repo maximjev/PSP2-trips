@@ -1,7 +1,7 @@
 package trip.facade.ticket;
 
 
-import trip.domain.ticket.Ticket;
+import trip.domain.ticket.entity.Ticket;
 
 import java.util.List;
 

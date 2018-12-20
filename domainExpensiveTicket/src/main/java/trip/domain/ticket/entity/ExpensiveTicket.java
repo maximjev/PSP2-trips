@@ -1,4 +1,4 @@
-package trip.domain.ticket;
+package trip.domain.ticket.entity;
 
 public class ExpensiveTicket extends Ticket {
 

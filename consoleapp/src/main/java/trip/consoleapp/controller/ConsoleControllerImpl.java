@@ -3,7 +3,6 @@ package trip.consoleapp.controller;
 import mvc.ConsoleController;
 import mvc.ConsoleModel;
 import trip.domain.offer.entity.Offer;
-import trip.domain.ticket.Ticket;
 import trip.facade.offer.FacadeOfferService;
 import trip.facade.ticket.FacadeTicketService;
 

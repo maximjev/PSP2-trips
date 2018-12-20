@@ -1,4 +1,4 @@
-package trip.domain.ticket;
+package trip.domain.ticket.entity;
 
 import java.io.Serializable;
 import java.util.UUID;

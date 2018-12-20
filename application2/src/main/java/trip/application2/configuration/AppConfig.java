@@ -6,7 +6,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import trip.domain.offer.service.DomainOfferService;
 import trip.domain.offer.service.DomainOfferServiceImpl;
 import trip.integration.sending.EmailSendingService;
-import trip.domain.ticket.factory.ExpensiveTicketFactory;
+import trip.domain.ticket.entity.entity.factory.ExpensiveTicketFactory;
 import trip.facade.offer.FacadeOfferService;
 import trip.facade.offer.FacadeOfferServiceImpl;
 import trip.facade.ticket.FacadeTicketService;
@@ -18,8 +18,8 @@ import trip.domain.offer.discount.PackageDiscount;
 import trip.domain.offer.discount.SeniorPackageDiscount;
 import trip.domain.offer.entity.factory.RoadFactory;
 import trip.domain.integration.sending.SendingService;
-import trip.domain.ticket.factory.TicketFactory;
-import trip.domain.ticket.repository.TicketRepository;
+import trip.domain.ticket.entity.entity.factory.TicketFactory;
+import trip.domain.ticket.entity.repository.TicketRepository;
 import trip.repository.ticket.TicketRepositoryMongoImpl;
 
 @Configuration
