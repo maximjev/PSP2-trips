@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create trip</title>
+</head>
+<body>
+
+<h2>Create trip</h2>
+
+<form action="#" th:action="@{/offer/adventure}" th:method="post">
+    <p>
+        <label for="duration">Duration</label>
+        <input id="duration" name="duration" type="number">
+    </p>
+    <p>
+        <label for="location">Location</label>
+        <input id="location" name="location" type="text">
+    </p>
+    <p>
+        <label for="packageType">Package type</label>
+        <select name="packageType" id="packageType">
+            <option value="FAMILY">Family</option>
+            <option value="SENIOR">Senior</option>
+            <option value="COUPLE">Couple</option>
+        </select>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+
+</body>
+</html>

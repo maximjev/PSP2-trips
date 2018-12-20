@@ -3,24 +3,24 @@ package trip.application1.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import trip.factory.ticket.CheapTicketFactory;
-import trip.domain.offer.DomainOfferService;
-import trip.domain.offer.DomainOfferServiceImpl;
+import trip.domain.ticket.factory.CheapTicketFactory;
+import trip.domain.offer.service.DomainOfferService;
+import trip.domain.offer.service.DomainOfferServiceImpl;
 import trip.facade.offer.FacadeOfferService;
 import trip.facade.offer.FacadeOfferServiceImpl;
 import trip.facade.ticket.FacadeTicketService;
 import trip.facade.ticket.FacadeTicketServiceImpl;
 import trip.domain.offer.discount.FamilyPackageDiscount;
-import trip.factory.offer.FlightFactory;
-import trip.factory.offer.OfferFactory;
+import trip.domain.offer.entity.factory.FlightFactory;
+import trip.domain.offer.entity.factory.OfferFactory;
 import trip.domain.offer.repository.OfferRepository;
-import trip.domain.offer.repository.OfferRepositoryMongoImpl;
+import trip.repository.offer.OfferRepositoryMongoImpl;
 import trip.domain.offer.discount.PackageDiscount;
-import trip.integration.sending.SendingService;
+import trip.domain.integration.sending.SendingService;
 import trip.integration.sending.SMSSendingService;
-import trip.factory.ticket.TicketFactory;
+import trip.domain.ticket.factory.TicketFactory;
 import trip.domain.ticket.repository.TicketRepository;
-import trip.domain.ticket.repository.TicketRepositoryMongoImpl;
+import trip.repository.ticket.TicketRepositoryMongoImpl;
 
 @Configuration
 public class AppConfig {

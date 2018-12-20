@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import trip.facade.offer.FacadeOfferService;
 import trip.facade.ticket.FacadeTicketService;
 
 @Controller
@@ -15,22 +16,26 @@ public class TicketController {
     @Autowired
     private FacadeTicketService ticketService;
 
+    @Autowired
+    private FacadeOfferService offerService;
+
     @GetMapping("/offer/{offerId}/ticket")
     public String getAll(@PathVariable String offerId, Model model) {
+        model.addAttribute("offer", offerService.getById(offerId));
         model.addAttribute("tickets", ticketService.getAllByOfferId(offerId));
         return "ticketList";
     }
 
-    @GetMapping("/ticket/{ticketId}")
-    public String get(@PathVariable String ticketId, Model model) {
-        model.addAttribute("ticket", ticketService.getById(ticketId));
-        return "ticketView";
+    @GetMapping("/offer/{offerId}/ticket/create")
+    public String getTicket(@PathVariable String offerId, Model model) {
+        model.addAttribute("offerId", offerId);
+        return "ticketCreate";
     }
 
     @PostMapping("/offer/{offerId}/ticket")
     public String create(@PathVariable String offerId, @RequestParam String count) {
         ticketService.save(offerId, Integer.parseInt(count));
-        return "ticketCreated";
+        return "ticketList";
     }
 
     @PostMapping("/offer/{offerId}/ticket/buy")
@@ -40,6 +45,6 @@ public class TicketController {
                       @RequestParam String contact) {
 
         ticketService.buy(offerId, packageType, Integer.parseInt(count), contact);
-        return "ticketBought";
+        return "ticketList";
     }
 }

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import trip.application1.configuration.AppConfig;
 
-@SpringBootApplication(scanBasePackages = { "trip.application1", "trip.offerController", "trip.ticketController"})
+@SpringBootApplication(scanBasePackages = { "trip.application1", "trip.controller.offer", "trip.controller.ticket"})
 @Import(AppConfig.class)
 public class Application1Application {
 

@@ -9,11 +9,14 @@
         <option value="$PROJECT_DIR$/application1/pom.xml" />
         <option value="$PROJECT_DIR$/FactoryRoadOffer/pom.xml" />
         <option value="$PROJECT_DIR$/application2/pom.xml" />
+        <option value="$PROJECT_DIR$/consoleapp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ConsoleImpl/pom.xml" />
         <option value="$PROJECT_DIR$/FacadeOfferService/pom.xml" />
+        <option value="$PROJECT_DIR$/FacadeOfferServiceNoDiscountImpl/pom.xml" />
         <option value="$PROJECT_DIR$/FactoryTrip/pom.xml" />
         <option value="$PROJECT_DIR$/RepositoryTicketMongo/pom.xml" />
         <option value="$PROJECT_DIR$/domainBaseTripAPI/pom.xml" />

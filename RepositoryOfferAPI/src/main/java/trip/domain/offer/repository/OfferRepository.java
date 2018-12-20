@@ -1,7 +1,7 @@
 package trip.domain.offer.repository;
 
 
-import trip.domain.offer.Offer;
+import trip.domain.offer.entity.Offer;
 
 import java.util.List;
 

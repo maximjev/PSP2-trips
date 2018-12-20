@@ -1,9 +1,9 @@
 package trip.facade.offer;
 
 
-import trip.domain.offer.DomainOfferService;
-import trip.domain.offer.Offer;
-import trip.factory.offer.OfferFactory;
+import trip.domain.offer.service.DomainOfferService;
+import trip.domain.offer.entity.Offer;
+import trip.domain.offer.entity.factory.OfferFactory;
 import trip.domain.offer.repository.OfferRepository;
 
 import java.time.Duration;

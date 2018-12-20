@@ -40,6 +40,8 @@
         <module>FacadeTicketServiceAPI</module>
         <module>FacadeTicketServiceImpl</module>
 		<module>ControllerTicket</module>
+		<module>domainServiceOfferNoDiscountImpl</module>
+        <module>ConsoleAPI</module>
     </modules>
 	<packaging>pom</packaging>
 

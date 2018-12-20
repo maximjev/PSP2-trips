@@ -5,12 +5,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import trip.domain.offer.Adventure;
-import trip.domain.offer.Offer;
-import trip.domain.offer.Trip;
+import trip.domain.offer.entity.adventure.Adventure;
+import trip.domain.offer.entity.Offer;
+import trip.domain.offer.entity.trip.Trip;
 import trip.facade.offer.FacadeOfferService;
 
 import java.time.Duration;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Controller
@@ -41,6 +42,11 @@ public class OfferController {
         return "offerView";
     }
 
+    @GetMapping("/trip")
+    public String getTrip() {
+        return "tripCreate";
+    }
+
     @PostMapping("/trip")
     public String create(
             @RequestParam(name = "from") String from,
@@ -48,8 +54,13 @@ public class OfferController {
             @RequestParam(name = "destination") String destination,
             @RequestParam(name = "packageType") String packageType) {
 
-        offerService.createOffer(LocalDateTime.parse(from), LocalDateTime.parse(till), destination, packageType);
-        return "offerCreated";
+        offerService.createOffer(LocalDate.parse(from).atStartOfDay(), LocalDate.parse(till).atStartOfDay(), destination, packageType);
+        return "offerList";
+    }
+
+    @GetMapping("/adventure")
+    public String getAdventure() {
+        return "adventureCreate";
     }
 
     @PostMapping("/adventure")
@@ -58,8 +69,8 @@ public class OfferController {
             @RequestParam(name = "location") String location,
             @RequestParam(name = "packageType") String packageType) {
 
-        offerService.createOffer(Duration.parse(duration), location, packageType);
-        return "offerCreated";
+        offerService.createOffer(Duration.ofDays(Integer.parseInt(duration)), location, packageType);
+        return "offerList";
     }
 
     @GetMapping("/{id}/price")
@@ -69,6 +80,9 @@ public class OfferController {
                            Model model) {
 
         model.addAttribute("price", offerService.getPrice(id, Integer.parseInt(count), packageType));
+        model.addAttribute("count", count);
+        model.addAttribute("count", packageType);
+
         return "offerPrice";
     }
 }

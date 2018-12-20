@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsoleAPI/ConsoleAPI.iml" filepath="$PROJECT_DIR$/ConsoleAPI/ConsoleAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControllerOffer/ControllerOffer.iml" filepath="$PROJECT_DIR$/ControllerOffer/ControllerOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControllerTicket/ControllerTicket.iml" filepath="$PROJECT_DIR$/ControllerTicket/ControllerTicket.iml" />
       <module fileurl="file://$PROJECT_DIR$/FacadeOfferServiceAPI/FacadeOfferServiceAPI.iml" filepath="$PROJECT_DIR$/FacadeOfferServiceAPI/FacadeOfferServiceAPI.iml" />
@@ -26,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/RepositoryTicketMongoDB/RepositoryTicketMongoDB.iml" filepath="$PROJECT_DIR$/RepositoryTicketMongoDB/RepositoryTicketMongoDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/application1/application1.iml" filepath="$PROJECT_DIR$/application1/application1.iml" />
       <module fileurl="file://$PROJECT_DIR$/application2/application2.iml" filepath="$PROJECT_DIR$/application2/application2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consoleapp/consoleapp.iml" filepath="$PROJECT_DIR$/consoleapp/consoleapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainAdventureAPI/domainAdventureAPI.iml" filepath="$PROJECT_DIR$/domainAdventureAPI/domainAdventureAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainCheapTicket/domainCheapTicket.iml" filepath="$PROJECT_DIR$/domainCheapTicket/domainCheapTicket.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainExpensiveTicket/domainExpensiveTicket.iml" filepath="$PROJECT_DIR$/domainExpensiveTicket/domainExpensiveTicket.iml" />
@@ -36,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/domainRoadTrip/domainRoadTrip.iml" filepath="$PROJECT_DIR$/domainRoadTrip/domainRoadTrip.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainServiceOfferAPI/domainServiceOfferAPI.iml" filepath="$PROJECT_DIR$/domainServiceOfferAPI/domainServiceOfferAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainServiceOfferImpl/domainServiceOfferImpl.iml" filepath="$PROJECT_DIR$/domainServiceOfferImpl/domainServiceOfferImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainServiceOfferNoDiscountImpl/domainServiceOfferNoDiscountImpl.iml" filepath="$PROJECT_DIR$/domainServiceOfferNoDiscountImpl/domainServiceOfferNoDiscountImpl.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainTicketAPI/domainTicketAPI.iml" filepath="$PROJECT_DIR$/domainTicketAPI/domainTicketAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/domainTripAPI/domainTripAPI.iml" filepath="$PROJECT_DIR$/domainTripAPI/domainTripAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/trips.iml" filepath="$PROJECT_DIR$/trips.iml" />

@@ -1,9 +1,9 @@
 package trip.facade.ticket;
 
-import trip.domain.offer.DomainOfferService;
-import trip.domain.offer.Offer;
+import trip.domain.offer.service.DomainOfferService;
+import trip.domain.offer.entity.Offer;
 import trip.domain.ticket.Ticket;
-import trip.factory.ticket.TicketFactory;
+import trip.domain.ticket.factory.TicketFactory;
 import trip.domain.ticket.repository.TicketRepository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package trip.domain.offer.discount;
 
 
-import trip.domain.offer.Offer;
+import trip.domain.offer.entity.Offer;
 
 public class FamilyPackageDiscount implements PackageDiscount {
 

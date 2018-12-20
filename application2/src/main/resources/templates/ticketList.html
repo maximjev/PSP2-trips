@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Offer tickets</title>
+</head>
+<body>
+
+<div>
+    <p><span>ID: </span><span th:text="${offer.getId()}"></span></p>
+    <p><span>Duration: </span><span th:text="${offer.getDuration()}"></span></p>
+    <p><span>Available tickets: </span><span th:text="${offer.getAvailableTickets()}"></span></p>
+    <p><span>Additional expenses: </span><span th:text="${offer.getAdditionalExpenses()}"></span></p>
+    <p><span>Package type: </span><span th:text="${offer.getPackageType()}"></span></p>
+    <p><span>Location: </span><span th:text="${location}"></span></p>
+    <p><span>From: </span><span th:text="${from}"></span></p>
+    <p><span>Till: </span><span th:text="${till}"></span></p>
+    <p><span>Destination: </span><span th:text="${destination}"></span></p>
+
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>Ticket code</td>
+            <td>Price</td>
+        </tr>
+
+        <tr th:each="ticket: ${tickets}">
+            <td th:text="${ticket.getId()}"></td>
+            <td th:text="${ticket.getTicketCode()}"></td>
+            <td th:text="${ticket.getPrice()}"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

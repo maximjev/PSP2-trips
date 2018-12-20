@@ -6,7 +6,7 @@ import com.twilio.sdk.resource.factory.MessageFactory;
 import com.twilio.sdk.resource.instance.Message;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import trip.integration.sending.SendingService;
+import trip.domain.integration.sending.SendingService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package trip.facade.offer;
 
 
-import trip.domain.offer.Offer;
+import trip.domain.offer.entity.Offer;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

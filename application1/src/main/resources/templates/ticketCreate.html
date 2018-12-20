@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create tickets</title>
+</head>
+<body>
+
+<h2>Add tickets</h2>
+
+<form action="#" th:action="@{'/offer/' + ${offerId} + '/ticket'}" th:method="post">
+    <p>
+        <label for="count">Duration</label>
+        <input id="count" name="count" type="number">
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+
+</body>
+</html>

@@ -2,6 +2,7 @@ package trip.integration.sending;
 
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import trip.domain.integration.sending.SendingService;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;

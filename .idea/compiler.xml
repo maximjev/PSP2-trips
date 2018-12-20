@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="application1" />
         <module name="application2" />
+        <module name="ConsoleAPI" />
+        <module name="consoleapp" />
         <module name="ControllerOffer" />
         <module name="ControllerTicket" />
         <module name="domainAdventureAPI" />
@@ -20,6 +22,7 @@
         <module name="domainRoadTrip" />
         <module name="domainServiceOfferAPI" />
         <module name="domainServiceOfferImpl" />
+        <module name="domainServiceOfferNoDiscountImpl" />
         <module name="domainTicketAPI" />
         <module name="domainTripAPI" />
         <module name="FacadeOfferServiceAPI" />
@@ -54,8 +57,12 @@
     <bytecodeTargetLevel>
       <module name="application1" target="9" />
       <module name="application2" target="11" />
+      <module name="ConsoleAPI" target="9" />
+      <module name="consoleapp" target="1.8" />
+      <module name="ConsoleImpl" target="9" />
       <module name="ControllerOffer" target="1.8" />
       <module name="ControllerTicket" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="domainAdventureAPI" target="9" />
       <module name="domainBaseTripAPI" target="11" />
       <module name="domainCheapTicket" target="9" />
@@ -67,11 +74,13 @@
       <module name="domainRoadTrip" target="9" />
       <module name="domainServiceOfferAPI" target="9" />
       <module name="domainServiceOfferImpl" target="9" />
+      <module name="domainServiceOfferNoDiscountImpl" target="9" />
       <module name="domainTicketAPI" target="9" />
       <module name="domainTripAPI" target="9" />
       <module name="FacadeOfferService" target="9" />
       <module name="FacadeOfferServiceAPI" target="9" />
       <module name="FacadeOfferServiceImpl" target="9" />
+      <module name="FacadeOfferServiceNoDiscountImpl" target="9" />
       <module name="FacadeTicketServiceAPI" target="9" />
       <module name="FacadeTicketServiceImpl" target="9" />
       <module name="FactoryCheapTicket" target="9" />
