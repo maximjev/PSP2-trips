@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import trip.domain.ticket.entity.Ticket;
-import trip.domain.ticket.entity.repository.TicketRepository;
+import trip.domain.ticket.repository.TicketRepository;
 
 import java.util.List;
 

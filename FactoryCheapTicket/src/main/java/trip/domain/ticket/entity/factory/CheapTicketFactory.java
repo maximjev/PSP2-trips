@@ -1,7 +1,7 @@
-package trip.domain.ticket.factory;
+package trip.domain.ticket.entity.factory;
 
-import trip.domain.ticket.CheapTicket;
-import trip.domain.ticket.Ticket;
+import trip.domain.ticket.entity.CheapTicket;
+import trip.domain.ticket.entity.Ticket;
 
 public class CheapTicketFactory implements TicketFactory {
 

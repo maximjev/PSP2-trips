@@ -131,7 +131,17 @@
 			<artifactId>ControllerTicket</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-    </dependencies>
+        <dependency>
+            <groupId>trips</groupId>
+            <artifactId>domainServiceOfferNoDiscountImpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+		<dependency>
+			<groupId>trips</groupId>
+			<artifactId>IntegrationSMSSendingService</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>

@@ -3,8 +3,8 @@ package trip.facade.ticket;
 import trip.domain.offer.service.DomainOfferService;
 import trip.domain.offer.entity.Offer;
 import trip.domain.ticket.entity.Ticket;
-import trip.domain.ticket.entity.entity.factory.TicketFactory;
-import trip.domain.ticket.entity.repository.TicketRepository;
+import trip.domain.ticket.entity.factory.TicketFactory;
+import trip.domain.ticket.repository.TicketRepository;
 
 import java.util.List;
 

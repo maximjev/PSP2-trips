@@ -16,5 +16,8 @@
     <orderEntry type="module" module-name="RepositoryOfferAPI" />
     <orderEntry type="module" module-name="FactoryOfferAPI" />
     <orderEntry type="module" module-name="domainServiceOfferAPI" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" level="project" />
   </component>
 </module>
