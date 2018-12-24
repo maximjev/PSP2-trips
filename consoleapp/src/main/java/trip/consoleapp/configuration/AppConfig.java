@@ -19,6 +19,7 @@ import trip.facade.offer.FacadeOfferServiceImpl;
 import trip.facade.ticket.FacadeTicketService;
 import trip.facade.ticket.FacadeTicketServiceImpl;
 import trip.integration.sending.EmailSendingService;
+import trip.integration.sending.SMSSendingService;
 import trip.repository.offer.OfferRepositoryMongoImpl;
 import trip.repository.ticket.TicketRepositoryMongoImpl;
 
@@ -76,8 +77,8 @@ public class AppConfig {
     }
 
     @Bean
-    public SendingService sendingService(JavaMailSender mailSender) {
-        return new EmailSendingService(mailSender);
+    public SendingService sendingService() {
+        return new SMSSendingService();
     }
 
 }

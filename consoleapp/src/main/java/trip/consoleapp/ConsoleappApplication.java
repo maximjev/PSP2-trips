@@ -3,9 +3,11 @@ package trip.consoleapp;
 import mvc.ConsoleController;
 import mvc.ConsoleModel;
 import mvc.ConsoleView;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Import;
 import resolver.ConsoleViewResolver;
@@ -23,10 +25,11 @@ import java.util.Map;
 @SpringBootApplication
 public class ConsoleappApplication implements CommandLineRunner {
 
-	private static ConfigurableApplicationContext ctx;
+	@Autowired
+	private ApplicationContext ctx;
 
 	public static void main(String[] args) {
-		ctx = SpringApplication.run(ConsoleappApplication.class, args);
+		SpringApplication.run(ConsoleappApplication.class, args);
 	}
 
 	@Override
